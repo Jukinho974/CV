@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire</title>
+</head>
+<body> 
+  
+<fieldset>
+    <legend>formulaire d'inscription</legend>
+
+<table>
+    <tr>
+    <td width="150px" height="40px"><label>Nom</label></td>
+    <td><input type="text" name="gamertag" id="gamertag"placeholder="Saisir votre nom"/> </td>
+    </tr>
+
+    <tr>
+    <td width="150px" height="40px"><label>Prénom</label></td>
+   <td><input type="text" name="Prénom" id="gamertag"placeholder="Saisir votre prénom" /></td>
+   </tr>
+   
+
+   
+    <tr>
+    <td width="150px" height="40px">   <label>Email</label></td>
+   
+            <td><input type="Email" name="Email" id=""placeholder="Saisir votre email" /> </td></tr>
+
+            <tr>
+                <td width="150px" height="40px"><label>Sexe</label></td>
+           <td> <input type="checkbox" name="homme"id="homme"/>
+            <label for="homme">homme</label>
+
+            <input type="checkbox" name="femme"id="femme">
+            <label for="femme">femme</label></td></tr>
+
+            <tr>
+                <td width="150px" height="40px"><label>Photo</label></td>
+                <td><input type="file">
+         </input>
+        </td>
+        </tr>
+
+
+         <tr><td width="150px" height="40px"><label for="pays">Pays</label></td>
+         <td><select name="pays" id="pays">
+             <option value="france">France</option>
+             <option value="espagne">Espagne</option>
+             <option value="italie">Italie</option>
+             <option value="royaume-uni">Royaume-Uni</option>
+             <option value="canada">Canada</option> 
+             <option value="etats-unis">États-Unis</option>
+             <option value="chine">Chine</option>
+             <option value="japon">Japon</option>
+             <option value="lune">Lune</option>
+             <option value="mars">mars</option>
+         </select> </td></tr>
+
+         <tr><td width="150px" height="80px"><label>Langage préferé</label></td>
+        <td> <select name="my_html_select_box" multiple="yes" size="3">
+          
+            <option>Java</option>
+            <option>C</option>
+            <option>C++</option>
+            <option>PHP</option>
+        </select>(Pour faire plusieurs choix maintenir la touche CTRL enfoncé)</td></tr>
+
+
+        <tr><td width="150px" height="80px"><label>Domaine d'activité</label></td>
+            <td> <input type="checkbox" name="Informatique"id="Informatique"/>
+             <label for="Informatique">Informatique</label>
+
+             <input type="checkbox" name="Gestion"id="Gestion"/>
+             <label for="Gestion">Gestion</label>
+
+             <input type="checkbox" name="Pédagogie"id="Pédagogie"/>
+             <label for="Pédagogie">Pédagogie</label> </td></tr>
+
+
+
+
+</table>
+      <footer>
+        <input type="submit" value="Envoyer" />
+        
+            <input type="submit" value="annuler" />
+      </footer></fieldset>
